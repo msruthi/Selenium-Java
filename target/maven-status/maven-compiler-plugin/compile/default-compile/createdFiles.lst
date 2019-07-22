@@ -1,0 +1,8 @@
+generic\BaseTest_nuvz.class
+generic\BasePage_nuvz.class
+generic\FWListener_nuvz.class
+generic\GenericMethods.class
+pages\LoginPage.class
+scripts\TestLogin.class
+generic\AutoUtility.class
+generic\IAutoConst_nuvz.class

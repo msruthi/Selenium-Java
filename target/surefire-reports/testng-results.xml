@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="61987" started-at="2019-07-22T13:28:33Z" finished-at="2019-07-22T13:29:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="61987" started-at="2019-07-22T13:28:33Z" finished-at="2019-07-22T13:29:35Z">
+      <class name="scripts.TestLogin">
+        <test-method status="PASS" signature="initFrameWork()[pri:0, instance:scripts.TestLogin@59f99ea]" name="initFrameWork" is-config="true" duration-ms="17" started-at="2019-07-22T18:58:33Z" finished-at="2019-07-22T18:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initFrameWork -->
+        <test-method status="PASS" signature="openPortal(java.lang.String)[pri:0, instance:scripts.TestLogin@59f99ea]" name="openPortal" is-config="true" duration-ms="56618" started-at="2019-07-22T18:58:33Z" finished-at="2019-07-22T18:59:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPortal -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:scripts.TestLogin@59f99ea]" name="testLogin" duration-ms="4412" started-at="2019-07-22T18:59:30Z" finished-at="2019-07-22T18:59:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:scripts.TestLogin@59f99ea]" name="closeBrowser" is-config="true" duration-ms="944" started-at="2019-07-22T18:59:35Z" finished-at="2019-07-22T18:59:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=TestLogin.testLogin()[pri:0, instance:scripts.TestLogin@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- scripts.TestLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
