@@ -5,4 +5,6 @@ generic\GenericMethods.class
 pages\LoginPage.class
 scripts\TestLogin.class
 generic\AutoUtility.class
+scripts\TestLogin2.class
+generic\ExtentReporterNG.class
 generic\IAutoConst_nuvz.class

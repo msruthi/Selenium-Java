@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="reportGeneration.ReportGen">
+      <class name="scripts.TestLogin">
         <methods>
-          <include name="launchBrowser"/>
-          <include name="VerifyHome"/>
+          <include name="closeBrowser"/>
+          <include name="testLogin"/>
+          <include name="initFrameWork"/>
+          <include name="openPortal"/>
         </methods>
-      </class> <!-- reportGeneration.ReportGen -->
+      </class> <!-- scripts.TestLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

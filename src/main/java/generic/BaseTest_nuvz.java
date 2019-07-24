@@ -7,15 +7,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
-@Listeners(FWListener_nuvz.class)
-//@Listeners(reportGeneration.ExtentReportListener.class)
+//@Listeners(FWListener_nuvz.class)
+@Listeners(ExtentReporterNG.class)
 public class BaseTest_nuvz implements IAutoConst_nuvz{
 	public WebDriver driver;
 	public String strURL;
@@ -66,9 +68,16 @@ public class BaseTest_nuvz implements IAutoConst_nuvz{
 			log.info("the Screenshot is taken:"+photopath);	
 			
 		}
-		driver.quit();
+		
+//        driver.quit();
+
+//		driver.quit();
 //		driver.close();
 		
-		
+	}
+	
+	@AfterClass
+	public void aftertestclass(){
+		System.out.print("after class test");
 	}
 }

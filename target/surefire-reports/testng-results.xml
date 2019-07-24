@@ -1,43 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="61987" started-at="2019-07-22T13:28:33Z" finished-at="2019-07-22T13:29:35Z">
+  <suite name="Suite" duration-ms="100954" started-at="2019-07-24T05:51:13Z" finished-at="2019-07-24T05:52:53Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="61987" started-at="2019-07-22T13:28:33Z" finished-at="2019-07-22T13:29:35Z">
+    <test name="Test in Chrome" duration-ms="100954" started-at="2019-07-24T05:51:13Z" finished-at="2019-07-24T05:52:53Z">
       <class name="scripts.TestLogin">
-        <test-method status="PASS" signature="initFrameWork()[pri:0, instance:scripts.TestLogin@59f99ea]" name="initFrameWork" is-config="true" duration-ms="17" started-at="2019-07-22T18:58:33Z" finished-at="2019-07-22T18:58:33Z">
+        <test-method status="PASS" signature="initFrameWork()[pri:0, instance:scripts.TestLogin@27efef64]" name="initFrameWork" is-config="true" duration-ms="10" started-at="2019-07-24T11:21:13Z" finished-at="2019-07-24T11:21:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initFrameWork -->
-        <test-method status="PASS" signature="openPortal(java.lang.String)[pri:0, instance:scripts.TestLogin@59f99ea]" name="openPortal" is-config="true" duration-ms="56618" started-at="2019-07-22T18:58:33Z" finished-at="2019-07-22T18:59:30Z">
+        <test-method status="PASS" signature="openPortal(java.lang.String)[pri:0, instance:scripts.TestLogin@27efef64]" name="openPortal" is-config="true" duration-ms="17271" started-at="2019-07-24T11:21:13Z" finished-at="2019-07-24T11:21:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openPortal -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:scripts.TestLogin@59f99ea]" name="testLogin" duration-ms="4412" started-at="2019-07-22T18:59:30Z" finished-at="2019-07-22T18:59:35Z">
+        <test-method status="PASS" signature="print()[pri:0, instance:scripts.TestLogin@27efef64]" name="print" duration-ms="1" started-at="2019-07-24T11:21:30Z" finished-at="2019-07-24T11:21:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:scripts.TestLogin@59f99ea]" name="closeBrowser" is-config="true" duration-ms="944" started-at="2019-07-22T18:59:35Z" finished-at="2019-07-22T18:59:35Z">
+        </test-method> <!-- print -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:scripts.TestLogin@27efef64]" name="closeBrowser" is-config="true" duration-ms="812" started-at="2019-07-24T11:21:30Z" finished-at="2019-07-24T11:21:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLogin status=SUCCESS method=TestLogin.testLogin()[pri:0, instance:scripts.TestLogin@59f99ea] output={null}]]]>
+                <![CDATA[[TestResult name=print status=SUCCESS method=TestLogin.print()[pri:0, instance:scripts.TestLogin@27efef64] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openPortal(java.lang.String)[pri:0, instance:scripts.TestLogin@27efef64]" name="openPortal" is-config="true" duration-ms="27368" started-at="2019-07-24T11:21:31Z" finished-at="2019-07-24T11:21:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPortal -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:scripts.TestLogin@27efef64]" name="testLogin" duration-ms="12957" started-at="2019-07-24T11:21:58Z" finished-at="2019-07-24T11:22:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:scripts.TestLogin@27efef64]" name="closeBrowser" is-config="true" duration-ms="729" started-at="2019-07-24T11:22:11Z" finished-at="2019-07-24T11:22:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=TestLogin.testLogin()[pri:0, instance:scripts.TestLogin@27efef64] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="aftertestclass()[pri:0, instance:scripts.TestLogin@27efef64]" name="aftertestclass" is-config="true" duration-ms="1" started-at="2019-07-24T11:22:12Z" finished-at="2019-07-24T11:22:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertestclass -->
       </class> <!-- scripts.TestLogin -->
-    </test> <!-- Test -->
+      <class name="scripts.TestLogin2">
+        <test-method status="PASS" signature="openPortal(java.lang.String)[pri:0, instance:scripts.TestLogin2@685cb137]" name="openPortal" is-config="true" duration-ms="30530" started-at="2019-07-24T11:22:12Z" finished-at="2019-07-24T11:22:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPortal -->
+        <test-method status="PASS" signature="testLogin2()[pri:0, instance:scripts.TestLogin2@685cb137]" name="testLogin2" duration-ms="10853" started-at="2019-07-24T11:22:42Z" finished-at="2019-07-24T11:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin2 -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:scripts.TestLogin2@685cb137]" name="closeBrowser" is-config="true" duration-ms="416" started-at="2019-07-24T11:22:53Z" finished-at="2019-07-24T11:22:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin2 status=SUCCESS method=TestLogin2.testLogin2()[pri:0, instance:scripts.TestLogin2@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="aftertestclass()[pri:0, instance:scripts.TestLogin2@685cb137]" name="aftertestclass" is-config="true" duration-ms="0" started-at="2019-07-24T11:22:53Z" finished-at="2019-07-24T11:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertestclass -->
+      </class> <!-- scripts.TestLogin2 -->
+    </test> <!-- Test in Chrome -->
   </suite> <!-- Suite -->
 </testng-results>

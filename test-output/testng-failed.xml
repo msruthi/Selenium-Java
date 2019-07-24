@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="classes">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test in Chrome(failed)" parallel="classes">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="scripts.TestLogin">
         <methods>
+          <include name="closeBrowser"/>
           <include name="testLogin"/>
           <include name="initFrameWork"/>
           <include name="openPortal"/>
         </methods>
       </class> <!-- scripts.TestLogin -->
+      <class name="scripts.TestLogin2">
+        <methods>
+          <include name="openPortal"/>
+        </methods>
+      </class> <!-- scripts.TestLogin2 -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test in Chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

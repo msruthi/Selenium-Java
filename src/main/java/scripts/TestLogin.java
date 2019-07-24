@@ -20,5 +20,10 @@ public class TestLogin extends BaseTest_nuvz{
      	loginpage.login(cmpcode,uname,pwd);
 		
 	}
-
+	
+	@Test
+	void print(){
+		
+		System.out.println("Print something");
+	}
 }

@@ -25,10 +25,7 @@ public class FWListener_nuvz extends BaseTest_nuvz implements ITestListener,IAut
 		// TODO Auto-generated method stub
 		String photopath=SCREENSHOT_PATH+AutoUtility.now()+".png";
 		AutoUtility.takeScreenshot(driver,photopath);
-		log.info("the Screenshot is taken:"+photopath);	
-		
-		
-		
+		log.info("the Screenshot is taken:"+photopath);			
 	}
 
 	public void onTestSkipped(ITestResult arg0) {
